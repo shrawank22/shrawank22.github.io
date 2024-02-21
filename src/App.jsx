@@ -5,7 +5,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import sharedData from './assets/portfolio_shared_data.json';
-import resumeData from './assets/res_primaryLanguage.json'
+import resumeData from './assets/resume_data.json'
 
 const App = () => {
   return (
