@@ -6,196 +6,316 @@
             "about": "About me",
             "projects": "Projects",
             "skills": "Skills",
-            "experience": "Experience"
+            "experience": "Experience",
+            "education": "Education"
         }
     },
     "projects": [
         {
             "title": "Decentralized Social Media App",
             "startDate": "Ongoing",
-            "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+            "description": "Developing a decentralized social media app using Self-Sovereign Identity (SSI), Non-Fungible Tokens (NFTs), InterPlanetary File System (IPFS), and Blockchain to revolutionize digital content creation, ownership, and consumption. Researching on how to make transactions gasless and how to handle copyright issues. Creators will be able to create free as well as premium content, and viewers need to pay certain ether as set by the content creator to access the premium content.",
             "images": [
-                "portfolio/animal-shelter/p1.jpg",
-                "portfolio/animal-shelter/p2.jpg"
+                "portfolio/social-media/1.png",
+                "portfolio/social-media/2.jpg"
             ],
-            "url": "",
+            "url": "https://github.com/shrawank22/social_media_dapp",
             "technologies": [
                 {
-                    "class": "devicon-angularjs-plain",
-                    "name": "Angular"
+                    "class": "devicon-blockchain-plain",
+                    "name": "Blockchain"
                 },
                 {
-                    "class": "devicon-typescript-plain",
-                    "name": "TypeScript"
+                    "name": "Solidity",
+                    "class": "devicon-solidity-plain"
                 },
                 {
-                    "class": "devicon-csharp-plain",
-                    "name": "C#"
+                    "name": "MongoDB",
+                    "class": "devicon-mongodb-plain"
+                },
+                {
+                    "class": "devicon-express-original",
+                    "name": "Express"
+                },
+                {
+                    "class": "devicon-react-original",
+                    "name": "React"
+                },
+                {
+                    "class": "devicon-nodejs-plain",
+                    "name": "NodeJS"
+                },
+                {
+                    "name": "JavaScript",
+                    "class": "devicon-javascript-plain"
+                },
+                {
+                    "name": "HTML 5",
+                    "class": "devicon-html5-plain"
                 }
             ]
         },
         {
             "title": "Todo React App",
             "startDate": "Dec '23",
-            "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+            "description": "Developed a responsive Todo Web application with comprehensive user authentication and authorization functionalities. Implemented RESTful APIs to enable seamless communication between the frontend and backend server.",
             "images": [
-                "portfolio/photography/p1.jpg",
-                "portfolio/photography/p2.jpg"
+                "portfolio/Todo/2.jpg",
+                "portfolio/Todo/1.png"
             ],
-            "url": "https://github.com",
+            "url": "https://github.com/shrawank22/todo-app",
             "technologies": [
+                {
+                    "name": "MongoDB",
+                    "class": "devicon-mongodb-plain"
+                },
+                {
+                    "class": "devicon-express-original",
+                    "name": "Express"
+                },
                 {
                     "class": "devicon-react-original",
                     "name": "React"
                 },
                 {
-                    "class": "devicon-javascript-plain",
-                    "name": "JavaScript"
+                    "class": "devicon-nodejs-plain",
+                    "name": "NodeJS"
+                },
+                {
+                    "name": "JavaScript",
+                    "class": "devicon-javascript-plain"
+                },
+                {
+                    "name": "HTML 5",
+                    "class": "devicon-html5-plain"
                 }
             ]
         },
         {
             "title": "SMS Spam Prediction",
             "startDate": "July '23",
-            "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+            "description": "Modeled an SMS spam detection system utilizing machine learning techniques to automatically identify and filter out unwanted and fraudulent text messages. Conducted Exploratory Data Analysis (EDA) on the preprocessed dataset, extracting valuable insights and visualizing key patterns in spam and ham messages, which informed feature selection and model design",
             "images": [
-                "portfolio/animal-shelter/p1.jpg",
-                "portfolio/animal-shelter/p2.jpg"
+                "portfolio/SMS-Spam/2.jpg",
+                "portfolio/SMS-Spam/1.png"
             ],
-            "url": "",
+            "url": "https://github.com/shrawank22/sms_spam_prediction",
             "technologies": [
                 {
-                    "class": "devicon-angularjs-plain",
-                    "name": "Angular"
-                },
-                {
-                    "class": "devicon-typescript-plain",
-                    "name": "TypeScript"
-                },
-                {
-                    "class": "devicon-csharp-plain",
-                    "name": "C#"
+                    "name": "Python",
+                    "class": "devicon-python-plain"
                 }
             ]
         },
         {
-            "title": "Passshield - Password Manager App",
+            "title": "PassShield - Password Manager App",
             "startDate": "Apr '23",
-            "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+            "description": "Developed a secure password manager application for storing and managing passwords in safer and convenient way. Used Advanced Encryption Algorithm (AES) to encrypt data before storing them to database. Implemented a dual-layer security approach for accessing stored passwords, ensuring protection even if login credentials are compromised.",
             "images": [
-                "portfolio/adventure/p1.jpg",
-                "portfolio/adventure/p2.jpg"
+                "portfolio/PassShield/3.jpg",
+                "portfolio/PassShield/1.png"
             ],
-            "url": "https://github.com",
+            "url": "https://github.com/shrawank22/passshield",
             "technologies": [
                 {
-                    "class": "devicon-angularjs-plain",
-                    "name": "Angular"
+                    "name": "MongoDB",
+                    "class": "devicon-mongodb-plain"
                 },
                 {
-                    "class": "devicon-typescript-plain",
-                    "name": "TypeScript"
+                    "class": "devicon-express-original",
+                    "name": "Express"
                 },
                 {
-                    "class": "devicon-csharp-plain",
-                    "name": "C#"
+                    "class": "devicon-nodejs-plain",
+                    "name": "NodeJS"
+                },
+                {
+                    "name": "JavaScript",
+                    "class": "devicon-javascript-plain"
+                },
+                {
+                    "name": "HTML 5",
+                    "class": "devicon-html5-plain"
+                },
+                {
+                    "name": "CSS 3",
+                    "class": "devicon-css3-plain"
+                },
+                {
+                    "name": "Bootstrap 5",
+                    "class": "devicon-bootstrap-plain"
                 }
             ]
         },
         {
             "title": "Decentralized Tendering App",
             "startDate": "Jan '23",
-            "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+            "description": "Developed a decentralised contracting/tendering based application where companies create tenders and bidders will bid on that tender and based on certain criteria, a bidder will be selected automatically. Added validators criteria to maintain trust and vigilance in the system.",
             "images": [
-                "portfolio/adventure/p1.jpg",
-                "portfolio/adventure/p2.jpg"
+                "portfolio/Tendering/1.png",
+                "portfolio/Tendering/2.jpg"
             ],
-            "url": "https://github.com",
+            "url": "https://github.com/shrawank22/blockchain-based-contracting-system",
             "technologies": [
+                {
+                    "class": "devicon-blockchain-plain",
+                    "name": "Blockchain"
+                },
+                {
+                    "name": "Solidity",
+                    "class": "devicon-solidity-plain"
+                },
+                {
+                    "name": "MongoDB",
+                    "class": "devicon-mongodb-plain"
+                },
+                {
+                    "class": "devicon-express-original",
+                    "name": "Express"
+                },
                 {
                     "class": "devicon-angularjs-plain",
                     "name": "Angular"
+                },
+                {
+                    "class": "devicon-nodejs-plain",
+                    "name": "NodeJS"
                 },
                 {
                     "class": "devicon-typescript-plain",
                     "name": "TypeScript"
                 },
                 {
-                    "class": "devicon-csharp-plain",
-                    "name": "C#"
+                    "name": "HTML 5",
+                    "class": "devicon-html5-plain"
                 }
             ]
         },
         {
             "title": "XOR PUF Response Predictor",
             "startDate": "Aug '22",
-            "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+            "description": "Built a linear model to accurately predict the responses of 3 level XOR-PUF (Physicallly Unclonable Function), leveraging a sufficient set of challenge-response pairs (CRPs) for effective learning. Conducted thorough hyperparameter tuning via grid search, resulting in finely optimized model parameters.",
             "images": [
-                "portfolio/animal-shelter/p1.jpg",
-                "portfolio/animal-shelter/p2.jpg"
+                "portfolio/PUF/2.jpg",
+                "portfolio/PUF/1.png",
+                "portfolio/PUF/3.jpg"
             ],
-            "url": "",
+            "url": "https://github.com/shrawank22/xor_puf_ml",
             "technologies": [
                 {
-                    "class": "devicon-angularjs-plain",
-                    "name": "Angular"
-                },
-                {
-                    "class": "devicon-typescript-plain",
-                    "name": "TypeScript"
-                },
-                {
-                    "class": "devicon-csharp-plain",
-                    "name": "C#"
+                    "name": "Python",
+                    "class": "devicon-python-plain"
                 }
             ]
         },
         {
             "title": "SLIET Techfest Web App",
             "startDate": "June '21",
-            "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+            "description": "Contributed as frontend developer for our college's techfest website in 2021",
             "images": [
-                "portfolio/adventure/p1.jpg",
-                "portfolio/adventure/p2.jpg"
+                "portfolio/Techfest/2.jpg",
+                "portfolio/Techfest/1.png"
             ],
-            "url": "https://github.com",
+            "url": "https://github.com/shrawank22/sliet-techfest-frontend-2021",
             "technologies": [
                 {
-                    "class": "devicon-angularjs-plain",
-                    "name": "Angular"
+                    "name": "HTML 5",
+                    "class": "devicon-html5-plain"
                 },
                 {
-                    "class": "devicon-typescript-plain",
-                    "name": "TypeScript"
+                    "name": "CSS 3",
+                    "class": "devicon-css3-plain"
                 },
                 {
-                    "class": "devicon-csharp-plain",
-                    "name": "C#"
+                    "name": "Bootstrap 5",
+                    "class": "devicon-bootstrap-plain"
+                },
+                {
+                    "name": "JavaScript",
+                    "class": "devicon-javascript-plain"
                 }
             ]
         },
         {
             "title": "Simple Chat App",
             "startDate": "Aug '20",
-            "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+            "description": "It's just a simple chat application created using socket.io",
             "images": [
-                "portfolio/adventure/p1.jpg",
-                "portfolio/adventure/p2.jpg"
+                "portfolio/Chat/1.jpg",
+                "portfolio/Chat/2.jpg"
             ],
-            "url": "https://github.com",
+            "url": "https://github.com/shrawank22/simple_chat_app",
             "technologies": [
                 {
-                    "class": "devicon-angularjs-plain",
-                    "name": "Angular"
+                    "name": "HTML 5",
+                    "class": "devicon-html5-plain"
                 },
                 {
-                    "class": "devicon-typescript-plain",
-                    "name": "TypeScript"
+                    "name": "CSS 3",
+                    "class": "devicon-css3-plain"
                 },
                 {
-                    "class": "devicon-csharp-plain",
-                    "name": "C#"
+                    "name": "Bootstrap 5",
+                    "class": "devicon-bootstrap-plain"
+                },
+                {
+                    "name": "JavaScript",
+                    "class": "devicon-javascript-plain"
+                },
+                {
+                    "class": "devicon-express-original",
+                    "name": "Express"
+                },
+                {
+                    "class": "devicon-nodejs-plain",
+                    "name": "NodeJS"
                 }
+                
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Indian Institute of Technology, Kanpur (IIT Kanpur)",
+            "degree": "MTech Computer Science",
+            "years": "2022 - 2024",
+            "subjects": [
+                "Modern Cryptology",
+                "Blockchain Technology",
+                "Machine Learning",
+                "Computer Systems Security",
+                "Hardware Security",
+                "Data Structures and Algorithms"
+            ]
+            
+        },
+        {
+            "institution": "SLIET Longowal",
+            "degree": "BE Computer Science & Engineering",
+            "years": "2018 - 2022",
+            "subjects": [
+                "Data Structures and Algorithms",
+                "Operating Systems",
+                "Computer Science",
+                "DBMS",
+                "Compilers",
+                "TOC",
+                "Digital Logic",
+                "Computer Networks",
+                "Computer Organization",
+                "Discrete Mathematics",
+                "Web Development"
+            ]
+        },
+        {
+            "institution": "Bihar School Examination Board",
+            "degree": "High School",
+            "years": "2016 - 2018",
+            "subjects": [
+                "Mathematics",
+                "Physics",
+                "Chemistry",
+                "English"
             ]
         }
     ],

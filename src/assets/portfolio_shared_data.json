@@ -11,12 +11,27 @@
             {
                 "name": "github",
                 "url": "https://github.com/shrawank22",
-                "class": "fab fa-github"
+                "class": "fa-brands fa-github"
+            },
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/shrawank22/",
+                "class": "fa-brands fa-linkedin"
             },
             {
                 "name": "instagram",
                 "url": "https://www.instagram.com/shrawank22/",
-                "class": "fab fa-instagram"
+                "class": "fa-brands fa-instagram"
+            },
+            {
+                "name": "twitter",
+                "url": "https://twitter.com/shrawank22",
+                "class": "fa-brands fa-twitter"
+            },
+            {
+                "name": "facebook",
+                "url": "https://www.facebook.com/shrawank22/",
+                "class": "fa-brands fa-facebook"
             }
         ],
         "image": "myProfile.jpg"

@@ -208,7 +208,11 @@ header h1 {
   align-items: center;
 }
 
-#resume {
+#education {
+  background-color: #efe1bd;
+}
+
+#experience {
   background: #efe1bd;
 }
 
@@ -224,6 +228,12 @@ header h1 {
   background-color: #f9f5e9 !important;
   color: black;
   font-weight: lighter !important;
+}
+
+.experience-icon {
+	font-size: 300%;
+	margin-top: 25%;
+	text-align: center;
 }
 
 .vertical-timeline-element-date {
@@ -309,7 +319,7 @@ header h1 {
 }
 
 #portfolio {
-  background: #efe1bd;
+  background: #fff;
   padding-bottom: 5%;
 }
 
