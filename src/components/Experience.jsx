@@ -14,16 +14,12 @@ const Experience = ({ resumeExperience, resumeBasicInfo }) => {
 
         var mainTech = mainTechnologies.map((technology, i) => {
             return (
-                <Badge pill className="main-badge mr-2 mb-2" key={i}>
-                    {technology}
-                </Badge>
+                <span className="main-badge badge text-bg-info p-2 rounded-pill" key={i}>{technology}</span>
             );
         });
         var tech = technologies.map((technology, i) => {
             return (
-                <Badge pill className="experience-badge mr-2 mb-2" key={i}>
-                    {technology}
-                </Badge>
+                <span className="experience-badge badge text-bg-light p-2 me-1" key={i}>{technology}</span>
             );
         });
         return (

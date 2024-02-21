@@ -23,27 +23,11 @@ const About = ({ sharedBasicInfo, resumeBasicInfo }) => {
                                     src={profilepic}
                                     alt="Avatar placeholder"
                                 />
-                                <Icon
-                                    icon="logos:react"
-                                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                                />
-
-                                <Icon
-                                    icon="vscode-icons:file-type-js-official"
-                                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                                />
-
-                                <Icon icon="vscode-icons:file-type-node"
-                                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                                />
-
-                                <Icon icon="logos:html-5"
-                                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                                />
-
-                                <Icon icon="devicon:mongodb-wordmark"
-                                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                                />
+                                <Icon icon="logos:react" className="icons" />     
+                                <Icon className="icons" icon="vscode-icons:file-type-js-official" />
+                                <Icon icon="vscode-icons:file-type-node" className="icons" />
+                                <Icon icon="logos:html-5" className="icons" />
+                                <Icon icon="devicon:mongodb-wordmark" className="icons" />
                             </span>
                         </div>
                     </div>
