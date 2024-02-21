@@ -1,0 +1,143 @@
+{
+  "basic_info": {
+    "name": "Shrawan Kumar",
+    "titles": [
+      "Full Stack Developer",
+      "Blockchain Developer",
+      "Cybersecurity Analyst",
+      "Software Engineer"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/shrawank22",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/shrawank22/",
+        "class": "fab fa-instagram"
+      }
+    ],
+    "image": "myProfile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-original",
+        "level": "80"
+      },
+      {
+        "name": "Node.js",
+        "class": "devicon-nodejs-plain",
+        "level": "75"
+      },
+      {
+        "name": "Express",
+        "class": "devicon-express-original",
+        "level": "70"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "70"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "70"
+      },
+      {
+        "name": "Blockchain",
+        "class": "devicon-blockchain-plain",
+        "level": "70"
+      },
+      {
+        "name": "Solidity",
+        "class": "devicon-solidity-plain",
+        "level": "70"
+      },
+      {
+        "name": "Ethereum",
+        "class": "devicon-ethereum-plain",
+        "level": "70"
+      },
+      {
+        "name": "Cybersecurity",
+        "class": "devicon-cybersecurity-plain",
+        "level": "70"
+      },
+      {
+        "name": "C",
+        "class": "devicon-c-plain",
+        "level": "70"
+      },
+      {
+        "name": "C++",
+        "class": "devicon-cplusplus-plain",
+        "level": "70"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "Bootstrap 5",
+        "class": "devicon-bootstrap-plain",
+        "level": "85"
+      },
+      {
+        "name": "Git",
+        "class": "devicon-git-plain",
+        "level": "85"
+      },
+      {
+        "name": "GitHub",
+        "class": "devicon-github-plain",
+        "level": "85"
+      },
+      {
+        "name": "VS Code",
+        "class": "devicon-visualstudio-plain",
+        "level": "85"
+      },
+      {
+        "name": "Postman",
+        "class": "devicon-postman-plain",
+        "level": "85"
+      },
+      {
+        "name": "Linux",
+        "class": "devicon-linux-plain",
+        "level": "85"
+      },
+      {
+        "name": "Firebase",
+        "class": "devicon-firebase-plain",
+        "level": "85"
+      },
+      {
+        "name": "Slack",
+        "class": "devicon-slack-plain",
+        "level": "85"
+      },
+      {
+        "name": "MySql",
+        "class": "devicon-mysql-plain",
+        "level": "60"
+      }
+    ]
+  }
+}
