@@ -79,9 +79,29 @@
                 "level": "70"
             },
             {
+                "name": "Blockchain",
+                "class": "fa-brands fa-hive",
+                "level": "85"
+            },
+            {
                 "name": "Solidity",
                 "class": "devicon-solidity-plain",
                 "level": "70"
+            },
+            {
+                "name": "Ethereum",
+                "class": "fa-brands fa-ethereum",
+                "level": "85"
+            },
+            {
+                "name": "Bitcoin",
+                "class": "fa-brands fa-bitcoin",
+                "level": "85"
+            },
+            {
+                "name": "Cybersecurity",
+                "class": "fa-solid fa-shield-heart",
+                "level": "85"
             },
             {
                 "name": "C",

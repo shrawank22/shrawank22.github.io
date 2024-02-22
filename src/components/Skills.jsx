@@ -9,7 +9,7 @@ const Skills = ({ sharedSkills, resumeBasicInfo }) => {
                     <i className={skills.class} style={{ fontSize: "220%" }}>
                         <p
                             className="text-center"
-                            style={{ fontSize: "30%", marginTop: "4px" }}
+                            style={{ fontSize: "30%", marginTop: "4px", fontFamily: "devicon" }}
                         >
                             {skills.name}
                         </p>

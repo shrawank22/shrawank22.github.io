@@ -1,7 +1,7 @@
 {
     "basic_info": {
-        "description_header": "Hi",
-        "description": "👋 I'm Shrawan Kumar. Thank you 💜",
+        "description_header": "Hey",
+        "description": "👋 I'm Shrawan Kumar - A software engineer and developer. I absolutely love computer science and get a real kick out of working with others. I shine in team settings, handle pressure well, and can adapt to anything. I find pure joy in writing code, and I'm skilled in both C++ and Python. I've made a bunch of cool Web and Android apps. Lately, I've been fascinated by cybersecurity for its dynamic nature and high demand. Currently, I'm diving into the world of blockchain technology for my MTech thesis. Thank you 💜",
         "section_name": {
             "about": "About me",
             "projects": "Projects",
@@ -321,37 +321,17 @@
     ],
     "experience": [
         {
-            "company": "DefOpenSource",
-            "title": "Front-End Developer",
-            "years": "10.2019 - present",
+            "company": "IIT Kanpur",
+            "title": "Teaching Assistant",
+            "years": "Aug '22 - present",
             "mainTech": [
-                "Angular 8/9/10"
+                "Teaching"
             ],
             "technologies": [
-                "REST API",
-                "RxJS",
-                "JavaScript",
-                "Bootstrap",
-                "MDBootstrap",
-                "EF Core",
-                ".NET Core",
-                "SignalR",
-                "Angular Material"
-            ]
-        },
-        {
-            "company": "Serros Solutions",
-            "title": "Intern",
-            "years": "01.2018 - 09.2019",
-            "mainTech": [
-                "Angular 7/8"
-            ],
-            "technologies": [
-                "RxJS",
-                "Django",
-                "PHP",
-                "JavaScript",
-                "DHTMLX Gantt"
+                "DSA",
+                "Algorithms",
+                "C",
+                "Compiler Design"
             ]
         }
     ]

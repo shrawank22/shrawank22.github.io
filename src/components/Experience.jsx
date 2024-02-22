@@ -68,14 +68,8 @@ const Experience = ({ resumeExperience, resumeBasicInfo }) => {
                 <VerticalTimeline>
                     {work}
                     <VerticalTimelineElement
-                        iconStyle={{
-                            background: "#AE944F",
-                            color: "#fff",
-                            textAlign: "center",
-                        }}
-                        icon={
-                            <i className="fas fa-hourglass-start mx-auto experience-icon"></i>
-                        }
+                        iconStyle={{ background: "#AE944F", color: "#fff", textAlign: "center" }}
+                        icon={ <i className="fas fa-hourglass-start mx-auto experience-icon"></i> }
                     />
                 </VerticalTimeline>
             </div>

@@ -2,8 +2,9 @@ import React from "react";
 import { Modal } from "react-bootstrap";
 import { Icon } from "@iconify/react";
 import AwesomeSlider from "react-awesome-slider";
-import '../assets/slider.scss'
+import "react-awesome-slider/dist/styles.css";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+import withAutoplay from 'react-awesome-slider/dist/autoplay';
 
 
 const ProjectDetailsModal = ({ data, onHide, show }) => {
@@ -37,17 +38,13 @@ const ProjectDetailsModal = ({ data, onHide, show }) => {
         }
     }
 
+    const AutoplaySlider = withAutoplay(AwesomeSlider);
+
+
     return (
-        <Modal
-            onHide={onHide}
-            show={show}
-            size="lg"
-            aria-labelledby="contained-modal-title-vcenter"
-            centered
-            className="modal-inside"
-        >
+        <Modal onHide={onHide} show={show} size="lg" aria-labelledby="contained-modal-title-vcenter" centered className="modal-inside">
             <span onClick={onHide} className="modal-close">
-            <i class="fa-solid fa-x close-icon"></i>
+                <i className="fa-solid fa-x close-icon"></i>
             </span>
             <div className="col-md-12">
                 <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
@@ -57,28 +54,22 @@ const ProjectDetailsModal = ({ data, onHide, show }) => {
                         <Icon icon="noto:green-circle" />
                     </div>
 
-                    <AwesomeSlider
-                        animation="scaleOutAnimation"
+                    <AutoplaySlider
+                        play={true}
+                        cancelOnInteraction={false} // should stop playing on user interaction
+                        interval={4000}
                         className="slider-image"
                     >
                         {img}
-                    </AwesomeSlider>
+                    </AutoplaySlider>
 
                 </div>
                 <div className="col-md-10 mx-auto">
                     <h3 style={{ padding: "5px 5px 0 5px" }}>
                         {title}
                         {url ? (
-                            <a
-                                href={url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="link-href"
-                            >
-                                <i
-                                    className="fas fa-external-link-alt"
-                                    style={{ marginLeft: "10px" }}
-                                ></i>
+                            <a href={url} target="_blank" rel="noopener noreferrer" className="link-href">
+                                <i className="fas fa-external-link-alt" style={{ marginLeft: "10px" }}></i>
                             </a>
                         ) : null}
                     </h3>

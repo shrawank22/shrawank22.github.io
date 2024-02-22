@@ -18,11 +18,7 @@ const About = ({ sharedBasicInfo, resumeBasicInfo }) => {
                     <div className="col-md-4 mb-5 center">
                         <div className="polaroid">
                             <span style={{ cursor: "auto" }}>
-                                <img
-                                    height="250px"
-                                    src={profilepic}
-                                    alt="Avatar placeholder"
-                                />
+                                <img height="260px" src={profilepic} alt="Avatar placeholder"/>
                                 <Icon icon="logos:react" className="icons" />     
                                 <Icon className="icons" icon="vscode-icons:file-type-js-official" />
                                 <Icon icon="vscode-icons:file-type-node" className="icons" />
@@ -40,12 +36,8 @@ const About = ({ sharedBasicInfo, resumeBasicInfo }) => {
                                     <Icon icon="noto:yellow-circle" />{" "}&nbsp;{" "}
                                     <Icon icon="noto:green-circle" />
                                 </div>
-                                <div className="card-body font-trebuchet text-justify ml-3 mr-3"
-                                    style={{
-                                        height: "auto",
-                                        fontSize: "132%",
-                                        lineHeight: "200%",
-                                    }}
+                                <div className="card-body text-justify ms-3 me-3"
+                                    style={{ height: "auto", fontSize: "15px", lineHeight: "200%",}}
                                 >
                                     <span className="wave">{hello} :) </span>
                                     <br />
