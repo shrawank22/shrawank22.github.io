@@ -47,7 +47,7 @@ const ProjectDetailsModal = ({ data, onHide, show }) => {
             className="modal-inside"
         >
             <span onClick={onHide} className="modal-close">
-                <i className="fas fa-times fa-2x close-icon"></i>
+            <i class="fa-solid fa-x close-icon"></i>
             </span>
             <div className="col-md-12">
                 <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
