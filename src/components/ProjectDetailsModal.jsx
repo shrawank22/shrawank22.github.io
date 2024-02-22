@@ -1,5 +1,6 @@
 import React from "react";
 import { Modal } from "react-bootstrap";
+import { Icon } from "@iconify/react";
 import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 
@@ -44,29 +45,14 @@ const ProjectDetailsModal = ({ data, onHide, show }) => {
             className="modal-inside"
         >
             <span onClick={onHide} className="modal-close">
-                <i className="fas fa-times fa-3x close-icon"></i>
+                <i className="fas fa-times fa-2x close-icon"></i>
             </span>
             <div className="col-md-12">
                 <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
                     <div className="slider-tab">
-                        <span
-                            className="iconify slider-iconfiy"
-                            data-icon="emojione:red-circle"
-                            data-inline="false"
-                            style={{ marginLeft: "5px" }}
-                        ></span>{" "}
-                        &nbsp;{" "}
-                        <span
-                            className="iconify slider-iconfiy"
-                            data-icon="twemoji:yellow-circle"
-                            data-inline="false"
-                        ></span>{" "}
-                        &nbsp;{" "}
-                        <span
-                            className="iconify slider-iconfiy"
-                            data-icon="twemoji:green-circle"
-                            data-inline="false"
-                        ></span>
+                        <Icon icon="noto:red-circle" />{" "}&nbsp;{" "}
+                        <Icon icon="noto:yellow-circle" />{" "}&nbsp;{" "}
+                        <Icon icon="noto:green-circle" />
                     </div>
                     <AwesomeSlider
                         animation="scaleOutAnimation"

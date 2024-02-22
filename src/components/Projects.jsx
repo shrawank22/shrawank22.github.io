@@ -18,8 +18,7 @@ const Projects = ({ resumeProjects, resumeBasicInfo }) => {
     if (resumeProjects && resumeBasicInfo) {
         sectionName = resumeBasicInfo.section_name.projects;
         projects = resumeProjects.map((project) => (
-            <div
-                className="col-sm-12 col-md-6 col-lg-4"
+            <div className="col-sm-12 col-md-6 col-lg-4"
                 key={project.title}
                 style={{ cursor: "pointer" }}
             >

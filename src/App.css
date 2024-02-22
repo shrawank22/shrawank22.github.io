@@ -85,11 +85,8 @@ header h1 {
 
 .slider-tab {
   background-color: #D7CAAA;
+  padding: 5px;
   height: 25px;
-}
-
-.slider-iconfiy {
-  margin-top: 10px;
 }
 
 .styles_typicalWrapper__1_Uvh::after {
