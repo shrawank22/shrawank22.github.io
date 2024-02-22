@@ -22,7 +22,7 @@ const Education = ({ resumeEducation, resumeBasicInfo }) => {
                     color: "#fff",
                     textAlign: "center",
                 }}
-                icon={<i class="fa-brands fa-angular experience-icon"></i>}
+                icon={<i className="fa-brands fa-angular experience-icon"></i>}
                 key={i}
             >
 

@@ -2,7 +2,9 @@ import React from "react";
 import { Modal } from "react-bootstrap";
 import { Icon } from "@iconify/react";
 import AwesomeSlider from "react-awesome-slider";
+import '../assets/slider.scss'
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+
 
 const ProjectDetailsModal = ({ data, onHide, show }) => {
     let technologies, images, title, description, url, tech, img;
@@ -54,12 +56,14 @@ const ProjectDetailsModal = ({ data, onHide, show }) => {
                         <Icon icon="noto:yellow-circle" />{" "}&nbsp;{" "}
                         <Icon icon="noto:green-circle" />
                     </div>
+
                     <AwesomeSlider
                         animation="scaleOutAnimation"
                         className="slider-image"
                     >
                         {img}
                     </AwesomeSlider>
+
                 </div>
                 <div className="col-md-10 mx-auto">
                     <h3 style={{ padding: "5px 5px 0 5px" }}>
