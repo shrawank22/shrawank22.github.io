@@ -36,7 +36,7 @@ const About = ({ sharedBasicInfo, resumeBasicInfo }) => {
                                     <Icon icon="noto:yellow-circle" />{" "}&nbsp;{" "}
                                     <Icon icon="noto:green-circle" />
                                 </div>
-                                <div className="card-body text-justify ms-3 me-3"
+                                <div className="card-body ms-3 me-3"
                                     style={{ height: "auto", fontSize: "15px", lineHeight: "200%",}}
                                 >
                                     <span className="wave">{hello} :) </span>

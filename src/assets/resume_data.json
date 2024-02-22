@@ -197,8 +197,7 @@
             "description": "Built a linear model to accurately predict the responses of 3 level XOR-PUF (Physicallly Unclonable Function), leveraging a sufficient set of challenge-response pairs (CRPs) for effective learning. Conducted thorough hyperparameter tuning via grid search, resulting in finely optimized model parameters.",
             "images": [
                 "portfolio/PUF/2.jpg",
-                "portfolio/PUF/1.png",
-                "portfolio/PUF/3.jpg"
+                "portfolio/PUF/1.png"
             ],
             "url": "https://github.com/shrawank22/xor_puf_ml",
             "technologies": [
